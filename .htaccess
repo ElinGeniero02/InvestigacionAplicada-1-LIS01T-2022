@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+Options -Indexes
+
+RewriteEngine On
+
+RewriteRule ^index.php$ index.php
+RewriteRule ^index.php/(\w+)/?$ index.php?action=$1
